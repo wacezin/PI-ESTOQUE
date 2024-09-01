@@ -1,0 +1,280 @@
+body {
+    background-color: black;
+}
+
+.linha {
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    left: 400px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+ul.listatitulo {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    align-items: start;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+
+li.extras1 {
+    color: white;
+}
+
+.linhadata {
+    background-color: white;
+    list-style: none;
+    color: white;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.extrasdata {
+    color: black;
+    position: relative;
+    left: 35px;
+    z-index: 1;
+}
+
+.linhadata2 {
+    background-color: white;
+    list-style: none;
+    color: white;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    border-radius: 5px;
+}
+
+ul.listahora {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+
+.linhahoras2 {
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 860px;
+    gap: 150px;
+    border-radius: 5px;
+}
+
+.extrashora {
+    color: black;
+    position: relative;
+    right: 158px;
+    z-index: 1;
+}
+
+.linhahora3{
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 670px;
+    border-radius: 5px;
+}
+
+
+/* CAIXA */
+h2{
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 710px;
+    margin-top: 100px;
+}
+
+.caixa{
+    width: 1000px;
+    height: 700px;
+    position: absolute;
+    left: 400px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.caixaitem{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: start;
+    padding: 25px;
+}
+
+.caixadoitem{
+    background-color: white;
+    width: 980px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+}
+
+.item{
+    font-size: large;
+    z-index: 1;
+    color: black;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+.caixadoitemsem{
+    background-color: rgb(221, 65, 65);
+    width: 980px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+}
+
+.itemsem{
+    font-size: large;
+    z-index: 1;
+    color: white;
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.caixadografico{
+    background-color: orange;
+    list-style: none;
+    width: 800px;
+    height: 40px;
+}
+
+.grafico{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: 550px;
+    padding: 20px;
+}
+
+.caixadografico4{
+    background-color: orange;
+    list-style: none;
+    width: 350px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    top: 175px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: black 0px 0px 5px 0px;
+}
+
+.caixadografico42{
+    background-color: orange;
+    list-style: none;
+    width: 350px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    top: 162px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: black 0px 0px 5px 0px;
+}
+
+.caixadografico20{
+    background-color: orange;
+    list-style: none;
+    width: 650px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    top: 160px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: black 0px 0px 5px 0px;
+}
+
+.caixadografico10{
+    background-color: orange;
+    list-style: none;
+    width: 550px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    top: 160px;
+    border-end-end-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: black 0px 0px 5px 0px;
+}
+
+.caixadografico0{
+    list-style: none;
+    font-size: large;
+    color: white;
+    display: flex;
+    position:  relative;
+    top: 165px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.graficobarra20{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.graficobarra10{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 2px;    
+}
+
+.graficobarra42{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.graficobarra4{
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 2px;
+}
