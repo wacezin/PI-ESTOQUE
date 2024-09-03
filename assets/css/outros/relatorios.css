@@ -1,0 +1,80 @@
+body{
+    background-color: #D9D9D9;
+}
+
+.caixa{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #64BDD9;
+}
+
+ul.listatitulo {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    align-items: start;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 1;
+}
+
+li.extras1 {
+    color: white;
+}
+
+.linhadata {
+    background-color: white;
+    list-style: none;
+    color: white;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.linhadata2 {
+    background-color: white;
+    list-style: none;
+    color: white;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    border-radius: 5px;
+}
+
+.extrasdata {
+    color: black;
+    position: relative;
+    left: 35px;
+    z-index: 1;
+}
+
+/* CAIXA 2 */
+.caixa2{
+    background-color: aquamarine;
+    width: 900px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    left: 500px;
+    margin-top: 85px;
+    border-radius: 5px;
+
+}
